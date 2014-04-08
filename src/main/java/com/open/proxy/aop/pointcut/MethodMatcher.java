@@ -1,0 +1,1 @@
+package com.open.proxy.aop.pointcut;import java.lang.reflect.Method;/** * 方法匹配接口 *  * @author jinming.wu * @date 2014-4-7 */public interface MethodMatcher {    boolean matches(Method method, Class<?> targetClass);}

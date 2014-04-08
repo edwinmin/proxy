@@ -1,0 +1,1 @@
+package com.open.proxy.aop.advice;/** * 拦截接口 *  * @author jinming.wu * @date 2014-4-7 */public interface Advice {}

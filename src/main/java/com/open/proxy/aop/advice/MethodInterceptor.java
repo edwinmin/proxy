@@ -1,0 +1,1 @@
+package com.open.proxy.aop.advice;import org.aopalliance.intercept.MethodInvocation;/** * @author jinming.wu * @date 2014-4-7 */public interface MethodInterceptor extends Interceptor {    Object invoke(MethodInvocation invocation) throws Throwable;}

@@ -1,0 +1,1 @@
+package com.open.proxy.aop.pointcut;/** * 类名匹配 *  * @author jinming.wu * @date 2014-4-7 */public interface ClassFilter {    boolean matches(Class<?> clazz);}

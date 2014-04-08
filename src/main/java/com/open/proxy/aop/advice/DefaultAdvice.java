@@ -1,0 +1,1 @@
+package com.open.proxy.aop.advice;/** * @author jinming.wu * @date 2014-4-7 */public class DefaultAdvice extends AspectJAdvice{    @Override    protected void doBefore() {        System.out.println("Before invoke!");    }    @Override    protected void doAfter() {        System.out.println("After invoke!");    }}

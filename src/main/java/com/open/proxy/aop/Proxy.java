@@ -1,0 +1,1 @@
+package com.open.proxy.aop;/** * proxy接口 *  * @author jinming.wu * @date 2014-4-7 */public interface Proxy {    Object getProxy();}

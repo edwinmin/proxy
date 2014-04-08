@@ -1,0 +1,1 @@
+package com.open.proxy.aop.pointcut;/** * 定义切入点--通过类+方法定位 *  * @author jinming.wu * @date 2014-4-7 */public interface PointCut {    ClassFilter getClassFilter();    MethodMatcher getMethodMatcher();}

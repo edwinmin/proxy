@@ -1,0 +1,1 @@
+package com.open.proxy.aop.advice;/** * @author jinming.wu * @date 2014-4-7 */public interface Interceptor extends Advice {}

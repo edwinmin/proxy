@@ -1,0 +1,1 @@
+package com.open.proxy.aop.advisor;import com.open.proxy.aop.advice.Advice;import com.open.proxy.aop.pointcut.PointCut;/** * 连接advice和pointcut *  * @author jinming.wu * @date 2014-4-7 */public interface Advisor {    Advice getAdvice();    PointCut getPointCut();}
